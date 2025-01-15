@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa";
 export default function ProductRating({ productId }: { productId: string }) {
   const rating = 4.2;
   const count = 24;
+  console.log(productId);
 
   return (
     <span className="flex gap-1 items-center">
