@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <Providers>
           <NavBar />
-          <Container className="py-20">{children}</Container>
+          <Container className="py-16">{children}</Container>
         </Providers>
       </body>
     </html>
